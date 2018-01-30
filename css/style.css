@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'Italic', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: yellow;
+}
+
+#carousel {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+
+#carousel ul {
+    width: 2000px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#carousel ul li {
+    width: 400px;
+    text-align: center;
+    height: 300px;
+    list-style: none float: left;
+}
+
+
+#buttons {
+    text-align: center;
+    position: absolute;
+}
+
+#left-button,
+#right-button {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
