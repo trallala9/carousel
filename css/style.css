@@ -32,7 +32,8 @@ body {
     width: 400px;
     text-align: center;
     height: 300px;
-    list-style: none float: left;
+    list-style: none;
+    float: left;
 }
 
 
